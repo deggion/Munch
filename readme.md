@@ -1,6 +1,7 @@
 <h1>Munch</h1>
 <p>Pizza ordering project</p>
 
+![alt text](https://github.com/deggion/Munch/blob/readme/app/images/src/header-munch.jpg?raw=true)
 
 <h2>How to start a project</h2>
 
