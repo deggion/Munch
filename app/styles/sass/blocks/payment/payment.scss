@@ -1,0 +1,37 @@
+.payment {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 71px 0 0 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: #FFFFFF;
+  @include media-max(768) {
+    padding: 20px;
+  }
+  span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    @include media-max(768) {
+      display: none;
+    }
+  }
+  img {
+    &:first-of-type {
+      width: 486px;
+      @include media-max(768) {
+        display: none;
+      }
+    }
+    &:last-of-type {
+      width: 279px;
+      @include media-min(769) {
+        display: none;
+      }
+    }
+  }
+}
