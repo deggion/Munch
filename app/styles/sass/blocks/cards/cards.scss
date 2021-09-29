@@ -96,6 +96,7 @@
   }
   &__btn {
     margin: 20px auto 40px;
+    width: fit-content;
     @include media-min(481) {
       display: none;
     }

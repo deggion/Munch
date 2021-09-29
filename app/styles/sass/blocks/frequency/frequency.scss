@@ -16,9 +16,9 @@
     }
   }
   &__radio {
-    margin: 67px 0 37px 0;
+    margin: 67px 0 55px 0;
     @include media-max(480) {
-      margin: 51px 0 38px 0;
+      margin: 51px 0 31px 0;
     }
   }
   &__date-input {
@@ -28,9 +28,9 @@
     }
   }
   &__day-picker {
-    margin-bottom: 80px;
-    @include media-max(480) {
-      margin-bottom: 62px;
+    margin-bottom: 118px;
+    @include media-max(768) {
+      margin-bottom: 26px;
     }
   }
 }

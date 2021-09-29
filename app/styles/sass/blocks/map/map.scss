@@ -1,6 +1,7 @@
 .map {
   margin: 75px 0 55px 0;
   @include media-max(768) {
+    margin-top: 35px;
     margin-bottom: 36px;
   }
   .search-panel {
