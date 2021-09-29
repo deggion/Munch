@@ -57,6 +57,9 @@
     width: 100%;
     clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%, 8% 50%);
     shape-outside: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%, 8% 50%);
+    @include media-max(991) {
+      min-height: 55px;
+    }
     &::before {
       content: "";
       background: #ffffff;
